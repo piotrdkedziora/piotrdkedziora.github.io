@@ -525,7 +525,7 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.project #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -535,7 +535,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.project #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -548,12 +548,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
+.project #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.project #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
@@ -564,7 +564,7 @@ section {
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.project .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -589,7 +589,7 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.project .portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 28px;
   text-align: center;
@@ -598,7 +598,7 @@ section {
   width: 50%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.project .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
 
@@ -646,7 +646,7 @@ section {
   border: 1px solid #149ddd;
 }
 
-.portfolio-details
+.project
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
